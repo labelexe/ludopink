@@ -15,7 +15,7 @@ class CashfreeController extends Controller
        
 		$amount = (double)$request->amount; // string to double
 		$amount_in_paisa = $amount * 100; //convert to paisa
-		$user_id = $request->Player_id;
+		$user_id = $request->Player_ID;
 
 		define('merchantId', 'PGTESTPAYUAT');
 		define('redirectUrl',  url('cashfree/payment/success'));
