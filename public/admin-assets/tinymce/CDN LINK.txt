@@ -1,0 +1,1 @@
+Tiny mce Important link https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.9.2/tinymce.min.js

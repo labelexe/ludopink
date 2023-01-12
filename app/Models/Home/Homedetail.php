@@ -1,0 +1,70 @@
+<?php
+
+namespace App\Models\Home;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Homedetail extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+        "heading",
+        "subheading",
+        "bannerimg",
+        "about_title",
+        "about_desc",
+        "about_setp1",
+        "about_step2",
+        "about_step3",
+        "about_img",
+        "fe_title",
+        "fe_desc",
+        "fetitle1",
+        "fedesc1",
+        "feicon1",
+        "fetitle2",
+        "fedesc2",
+        "feicon2",
+        "fetitle3",
+        "fedesc3",
+        "feicon3",
+        "fetitle4",
+        "fedesc4",
+        "feicon4",
+        "fetitle5",
+        "fedesc5",
+        "feicon5",
+        "fetitle6",
+        "fedesc6",
+        "feicon6",
+        "download_title",
+        "download_desc",
+        "download_image",
+        "download_link",
+        "screenshot_title",
+        "screenshot_desc",
+        "contact_image",
+        "contact_video",
+        "totalinstall",
+        "totaldownload",
+        "activeuser",
+        "satisfieduser",
+        "cardtitle1",
+        "carddescr1",
+        "cardicon1",
+        "cardtitle2",
+        "carddescr2",
+        "cardicon2",
+        "cardtitle3",
+        "carddescr3",
+        "cardicon3",
+        "cardtitle4",
+        "carddescr4",
+        "cardicon4",
+        "testimonial_title",
+        "testimonial_desc",
+        "contact_title",
+        "contact_desc",
+    ];
+}
